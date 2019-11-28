@@ -5,10 +5,8 @@
 
 // The editor creator to use.
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
-
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
-
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
@@ -19,7 +17,6 @@ import Link from '@ckeditor/ckeditor5-link/src/link';
 import Emoji from '@wwalc/ckeditor5-emoji/src/emoji';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import InsertImage from './insertImage';
-
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -79,7 +76,7 @@ ClassicEditor.defaultConfig = {
 		{ name: 'letter', text: '📧' },
 	],
 	fontSize: {
-		options: [8,9,10,11,12,14,16,18,20,22,24,26,28,36,48,72]
+		options: [ 8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 36, 48, 72 ]
 	},
 	uiColor: '#F2F2F2',
 	// This value must be kept in sync with the language defined in webpack.config.js.
