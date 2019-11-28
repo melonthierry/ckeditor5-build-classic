@@ -1,5 +1,5 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
+  "name": "@melonthierry/ckeditor5-build-watermelon",
   "version": "15.0.0",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
@@ -87,5 +87,9 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-font": "^15.0.0",
+    "@wwalc/ckeditor5-emoji": "^11.0.2"
   }
 }
