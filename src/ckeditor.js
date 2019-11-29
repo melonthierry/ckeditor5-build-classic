@@ -16,6 +16,7 @@ import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import Emoji from '@wwalc/ckeditor5-emoji/src/emoji';
 import Image from '@ckeditor/ckeditor5-image/src/image';
+import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
 import InsertImage from './insertImage';
 
 export default class ClassicEditor extends ClassicEditorBase {}
@@ -33,7 +34,8 @@ ClassicEditor.builtinPlugins = [
 	Link,
 	Image,
 	InsertImage,
-	Emoji
+	Emoji,
+	RemoveFormat
 ];
 
 // Editor configuration.
